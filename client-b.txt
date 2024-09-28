@@ -1,4 +1,19 @@
 # Client Task B #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+Task B  client-b .txt:
+
+# set variable j to 1
+j = 1
+
+#while j is less than or equal to 10
+while j <=10:
+      #print j
+       print (j)
+       #increment j by 1
+       j +=1
+explanination:
+* A while loop is used to print the value of j from 1 to 10.
+* the loop continues as long as j is less then or equal 1 to 10
+* the variable j is incremented by 1 in each iteration
 
