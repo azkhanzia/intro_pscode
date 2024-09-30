@@ -1,4 +1,14 @@
 # Client Task A #
 # Add your pseudocode to this file below this line: #
 # ------------------------------------------------- #
+if user.is_logged_in():
+   display_homepage(user)
+else:
+   display_login_page()
+
+Explaniantion:
+
+* the code checks if the user is logged in using a method ""   is_logged_in() on the "" user "" object.
+* If the user is logged in, thier personalized homepage is displayed using the "" display_homepage() function.
+* If they are not logged in, the display_login_page() function is called to show login screen.
 
